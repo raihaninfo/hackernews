@@ -22,7 +22,7 @@ func (a *application) routes() http.Handler {
 
 	mux.Get("/", func(w http.ResponseWriter, r *http.Request) {
 
-		a.session.Put(r.Context(), "test", "lsdjf")
+		// a.session.Put(r.Context(), "test", "lsdjf")
 
 		err := a.render(w, r, "index", nil)
 		if err != nil {

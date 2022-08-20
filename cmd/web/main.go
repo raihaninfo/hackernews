@@ -11,6 +11,7 @@ import (
 	"github.com/alexedwards/scs/postgresstore"
 	"github.com/alexedwards/scs/v2"
 	_ "github.com/lib/pq"
+	"github.com/raihaninfo/hackernews/models"
 	"github.com/upper/db/v4"
 	"github.com/upper/db/v4/adapter/postgresql"
 )
@@ -23,6 +24,7 @@ type application struct {
 	infoLog *log.Logger
 	view    *jet.Set
 	session *scs.SessionManager
+	model   models.Model
 }
 type server struct {
 	host string
@@ -60,6 +62,7 @@ func main() {
 		debug:   true,
 		errLog:  log.New(os.Stderr, "ERROR \t", log.Ldate|log.Ltime|log.Lshortfile),
 		infoLog: log.New(os.Stdout, "INFO \t", log.Ldate|log.Ltime|log.Lshortfile),
+		model:   models.New(upper),
 	}
 
 	// init jet template

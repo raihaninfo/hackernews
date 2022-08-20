@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Aug 20 07:50:01 2022
+# Make data base, printed on Sat Aug 20 19:06:58 2022
 
 # Variables
 
@@ -59,7 +59,7 @@ LSCOLORS = Gxfxcxdxbxegedabagacad
 # environment
 XDG_DATA_DIRS = /usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
 # environment
-OLDPWD = /home/raihan
+OLDPWD = /home/raihan/go/src
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
 # automatic
@@ -75,7 +75,7 @@ XAUTHORITY = /run/user/1000/gdm/Xauthority
 # default
 .INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
 # environment
-GNOME_TERMINAL_SERVICE = :1.105
+GNOME_TERMINAL_SERVICE = :1.96
 # makefile
 MAKEFLAGS = pqrR
 # makefile
@@ -107,13 +107,13 @@ SNAP_REEXEC =
 # environment
 ZSH = /home/raihan/.oh-my-zsh
 # environment
-VSCODE_PID = 5278
+VSCODE_PID = 4339
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/raihan:@/tmp/.ICE-unix/2096,unix/raihan:/tmp/.ICE-unix/2096
+SESSION_MANAGER = local/raihan:@/tmp/.ICE-unix/2073,unix/raihan:/tmp/.ICE-unix/2073
 # automatic
 *F = $(notdir $*)
 # environment
@@ -139,7 +139,7 @@ XMODIFIERS = @im=ibus
 # environment
 SHLVL = 1
 # environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/e42a8d99_1b0a_44b3_a191_699cc3c44a91
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/fd13fa8c_0896_4ae5_8c20_d62dac98b897
 # environment
 MAKELEVEL := 0
 # default
@@ -193,7 +193,7 @@ SNAP_ARCH = amd64
 # makefile
 .DEFAULT_GOAL := run
 # environment
-SYSTEMD_EXEC_PID = 2155
+SYSTEMD_EXEC_PID = 2100
 # environment
 DISPLAY = :1
 # environment
@@ -287,11 +287,11 @@ SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd
 
 # Directories
 
-# . (device 2053, inode 11148293): 9 files, no impossibilities.
+# . (device 2053, inode 11148293): 18 files, no impossibilities.
+
+# 18 files, no impossibilities in 1 directories.
 
  
-# 9 files, no impossibilities in 1 directories.
-
 # Implicit Rules
 
 # No implicit rules.
@@ -333,12 +333,12 @@ run:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 15 / storage = 112 B / avg = 7 B
-# current buf: size = 8162 B / used = 112 B / count = 15 / avg = 7 B
+# strcache buffers: 1 (0) / strings = 24 / storage = 189 B / avg = 7 B
+# current buf: size = 8162 B / used = 189 B / count = 24 / avg = 7 B
 
-# strcache performance: lookups = 20 / hit rate = 25%
+# strcache performance: lookups = 29 / hit rate = 17%
 # hash-table stats:
-# Load=15/8192=0%, Rehash=0, Collisions=0/20=0%
-# Finished Make data base on Sat Aug 20 07:50:01 2022
+# Load=24/8192=0%, Rehash=0, Collisions=0/29=0%
+# Finished Make data base on Sat Aug 20 19:06:58 2022
 
  

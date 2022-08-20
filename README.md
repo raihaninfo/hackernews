@@ -1,4 +1,4 @@
-# hackernews_clone
+# hacker news
 
 # Dependency
 

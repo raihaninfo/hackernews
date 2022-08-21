@@ -1,4 +1,6 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
 # GNU Make 4.3
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2020 Free Software Foundation, Inc.
@@ -6,7 +8,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun Aug 21 12:23:19 2022
+# Make data base, printed on Sun Aug 21 20:00:56 2022
 
 # Variables
 
@@ -73,7 +75,7 @@ XAUTHORITY = /run/user/1000/gdm/Xauthority
 # default
 .INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
 # environment
-GNOME_TERMINAL_SERVICE = :1.144
+GNOME_TERMINAL_SERVICE = :1.128
 # makefile
 MAKEFLAGS = pqrR
 # makefile
@@ -105,13 +107,13 @@ SNAP_REEXEC =
 # environment
 ZSH = /home/raihan/.oh-my-zsh
 # environment
-VSCODE_PID = 7570
+VSCODE_PID = 9246
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/raihan:@/tmp/.ICE-unix/2152,unix/raihan:/tmp/.ICE-unix/2152
+SESSION_MANAGER = local/raihan:@/tmp/.ICE-unix/2085,unix/raihan:/tmp/.ICE-unix/2085
 # automatic
 *F = $(notdir $*)
 # environment
@@ -137,7 +139,7 @@ XMODIFIERS = @im=ibus
 # environment
 SHLVL = 1
 # environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/67477b51_48ee_4253_b34c_fc5ea43d820c
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/190e84c6_dcdf_4a63_8b40_5dcaf1f6a0ec
 # environment
 MAKELEVEL := 0
 # default
@@ -191,7 +193,7 @@ SNAP_ARCH = amd64
 # makefile
 .DEFAULT_GOAL := run
 # environment
-SYSTEMD_EXEC_PID = 2215
+SYSTEMD_EXEC_PID = 2148
 # environment
 DISPLAY = :1
 # environment
@@ -277,8 +279,6 @@ LC_IDENTIFICATION = en_US.UTF-8
 # environment
 SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
  
-make: *** No rule to make target 'all'.  Stop.
-
 # variable set hash-table stats:
 # Load=133/1024=13%, Rehash=0, Collisions=12/163=7%
 
@@ -346,6 +346,6 @@ run/migrate:
 # strcache performance: lookups = 32 / hit rate = 18%
 # hash-table stats:
 # Load=26/8192=0%, Rehash=0, Collisions=0/32=0%
-# Finished Make data base on Sun Aug 21 12:23:19 2022
+# Finished Make data base on Sun Aug 21 20:00:56 2022
 
  

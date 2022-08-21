@@ -2,6 +2,8 @@ package main
 
 import (
 	"database/sql"
+	"flag"
+	"fmt"
 	"log"
 	"net/http"
 	"os"
@@ -33,6 +35,11 @@ type server struct {
 }
 
 func main() {
+
+	migrate := flag.Bool("migrate", false, "should migrate - drop all tables")
+
+	flag.Parse()
+
 	server := server{
 		host: "localhost",
 		port: "8080",
@@ -55,6 +62,16 @@ func main() {
 			log.Fatal(err)
 		}
 	}(upper)
+
+	// run migration
+	if *migrate {
+		fmt.Println("Running migration")
+		err = runMigrate(upper)
+		if err != nil {
+			log.Fatal(err)
+		}
+		fmt.Println("Done running migration")
+	}
 
 	app := &application{
 		appName: "Hacker News",
@@ -98,4 +115,16 @@ func openDB(dsn string) (*sql.DB, error) {
 		return nil, err
 	}
 	return db, nil
+}
+
+func runMigrate(db db.Session) error {
+	script, err := os.ReadFile("./migrations/table.sql")
+	if err != nil {
+		return err
+	}
+	_, err = db.SQL().Exec(string(script))
+	if err != nil {
+		return err
+	}
+	return err
 }

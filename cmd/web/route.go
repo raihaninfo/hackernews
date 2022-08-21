@@ -30,5 +30,8 @@ func (a *application) routes() http.Handler {
 		}
 	})
 
+	fileServer := http.FileServer(http.Dir("./public"))
+	mux.Handle("/public/*", http.StripPrefix("/public", fileServer))
+
 	return mux
 }

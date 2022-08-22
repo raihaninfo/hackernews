@@ -11,17 +11,19 @@ import (
 var (
 	ErrNoMoreRows     = errors.New("no record found")
 	ErrDuplicateEmail = errors.New("email already in our database")
-	ErrUserNotActive = errors.New("your account in inactive")
-	ErrInvalidLogin = errors.New("Invalid Login")
+	ErrUserNotActive  = errors.New("your account in inactive")
+	ErrInvalidLogin   = errors.New("invalid Login")
 )
 
 type Model struct {
-	User UserModel
+	Users UserModel
+	Posts PostModel
 }
 
 func New(db db.Session) Model {
 	return Model{
-		User: UserModel{db: db},
+		Users: UserModel{db: db},
+		Posts: PostModel{db: db},
 	}
 }
 

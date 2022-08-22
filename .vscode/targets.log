@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun Aug 21 20:00:56 2022
+# Make data base, printed on Mon Aug 22 19:38:37 2022
 
 # Variables
 
@@ -59,7 +59,7 @@ LSCOLORS = Gxfxcxdxbxegedabagacad
 # environment
 XDG_DATA_DIRS = /usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
 # environment
-OLDPWD = /home/raihan/go/src
+OLDPWD = /home/raihan
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
 # automatic
@@ -75,7 +75,7 @@ XAUTHORITY = /run/user/1000/gdm/Xauthority
 # default
 .INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
 # environment
-GNOME_TERMINAL_SERVICE = :1.128
+GNOME_TERMINAL_SERVICE = :1.115
 # makefile
 MAKEFLAGS = pqrR
 # makefile
@@ -107,13 +107,13 @@ SNAP_REEXEC =
 # environment
 ZSH = /home/raihan/.oh-my-zsh
 # environment
-VSCODE_PID = 9246
+VSCODE_PID = 7137
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/raihan:@/tmp/.ICE-unix/2085,unix/raihan:/tmp/.ICE-unix/2085
+SESSION_MANAGER = local/raihan:@/tmp/.ICE-unix/2129,unix/raihan:/tmp/.ICE-unix/2129
 # automatic
 *F = $(notdir $*)
 # environment
@@ -139,7 +139,7 @@ XMODIFIERS = @im=ibus
 # environment
 SHLVL = 1
 # environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/190e84c6_dcdf_4a63_8b40_5dcaf1f6a0ec
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/dace4e6f_1d64_4ec1_9554_bd5b4bbfcbea
 # environment
 MAKELEVEL := 0
 # default
@@ -193,7 +193,7 @@ SNAP_ARCH = amd64
 # makefile
 .DEFAULT_GOAL := run
 # environment
-SYSTEMD_EXEC_PID = 2148
+SYSTEMD_EXEC_PID = 2187
 # environment
 DISPLAY = :1
 # environment
@@ -278,7 +278,6 @@ GDMSESSION = ubuntu
 LC_IDENTIFICATION = en_US.UTF-8
 # environment
 SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
- 
 # variable set hash-table stats:
 # Load=133/1024=13%, Rehash=0, Collisions=12/163=7%
 
@@ -295,6 +294,7 @@ SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd
 # Implicit Rules
 
 # No implicit rules.
+ 
 
 # Files
 
@@ -346,6 +346,6 @@ run/migrate:
 # strcache performance: lookups = 32 / hit rate = 18%
 # hash-table stats:
 # Load=26/8192=0%, Rehash=0, Collisions=0/32=0%
-# Finished Make data base on Sun Aug 21 20:00:56 2022
+# Finished Make data base on Mon Aug 22 19:38:37 2022
 
  

@@ -2,10 +2,12 @@ package main
 
 import (
 	"fmt"
+
 	"github.com/CloudyKit/jet/v6"
 	"github.com/go-chi/chi/v5"
-	"github.com/joefazee/hnews/forms"
-	"github.com/joefazee/hnews/models"
+	"github.com/raihaninfo/hackernews/forms"
+	"github.com/raihaninfo/hackernews/models"
+
 	"log"
 	"net/http"
 	"strconv"

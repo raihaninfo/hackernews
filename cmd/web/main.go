@@ -4,16 +4,19 @@ import (
 	"database/sql"
 	"flag"
 	"fmt"
+
 	"github.com/CloudyKit/jet/v6"
 	"github.com/alexedwards/scs/postgresstore"
 	"github.com/alexedwards/scs/v2"
-	"github.com/joefazee/hnews/models"
-	"github.com/upper/db/v4"
-	"github.com/upper/db/v4/adapter/postgresql"
+	"github.com/raihaninfo/hackernews/models"
+
 	"log"
 	"net/http"
 	"os"
 	"time"
+
+	"github.com/upper/db/v4"
+	"github.com/upper/db/v4/adapter/postgresql"
 
 	_ "github.com/lib/pq"
 )

@@ -34,7 +34,6 @@ func (f *Filter) Validate() error {
 
 	return nil
 }
-
 func (f *Filter) addOrdering(q string) string {
 	if f.OrderBy == "popular" {
 		return strings.Replace(q, "#orderby#", "ORDER BY votes desc, p.created_at desc", 1)

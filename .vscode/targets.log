@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Aug 22 19:38:37 2022
+# Make data base, printed on Wed Aug 24 19:20:07 2022
 
 # Variables
 
@@ -75,7 +75,7 @@ XAUTHORITY = /run/user/1000/gdm/Xauthority
 # default
 .INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
 # environment
-GNOME_TERMINAL_SERVICE = :1.115
+GNOME_TERMINAL_SERVICE = :1.122
 # makefile
 MAKEFLAGS = pqrR
 # makefile
@@ -107,13 +107,13 @@ SNAP_REEXEC =
 # environment
 ZSH = /home/raihan/.oh-my-zsh
 # environment
-VSCODE_PID = 7137
+VSCODE_PID = 6362
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/raihan:@/tmp/.ICE-unix/2129,unix/raihan:/tmp/.ICE-unix/2129
+SESSION_MANAGER = local/raihan:@/tmp/.ICE-unix/2159,unix/raihan:/tmp/.ICE-unix/2159
 # automatic
 *F = $(notdir $*)
 # environment
@@ -139,7 +139,7 @@ XMODIFIERS = @im=ibus
 # environment
 SHLVL = 1
 # environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/dace4e6f_1d64_4ec1_9554_bd5b4bbfcbea
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/2d6100e3_d383_44ee_827a_f62549f68e1d
 # environment
 MAKELEVEL := 0
 # default
@@ -193,7 +193,7 @@ SNAP_ARCH = amd64
 # makefile
 .DEFAULT_GOAL := run
 # environment
-SYSTEMD_EXEC_PID = 2187
+SYSTEMD_EXEC_PID = 2226
 # environment
 DISPLAY = :1
 # environment
@@ -287,21 +287,21 @@ SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd
 
 # Directories
 
-# . (device 2053, inode 11148293): 19 files, no impossibilities.
+# . (device 2053, inode 11148293): 20 files, no impossibilities.
 
-# 19 files, no impossibilities in 1 directories.
+ 
+# 20 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
 # No implicit rules.
- 
 
 # Files
 
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-20 19:59:07.000437453
+#  Last modified 2022-08-23 12:46:57.000131231
 #  File has been updated.
 #  Successfully updated.
 
@@ -340,12 +340,12 @@ run/migrate:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 26 / storage = 212 B / avg = 8 B
-# current buf: size = 8162 B / used = 212 B / count = 26 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 27 / storage = 218 B / avg = 8 B
+# current buf: size = 8162 B / used = 218 B / count = 27 / avg = 8 B
 
-# strcache performance: lookups = 32 / hit rate = 18%
+# strcache performance: lookups = 33 / hit rate = 18%
 # hash-table stats:
-# Load=26/8192=0%, Rehash=0, Collisions=0/32=0%
-# Finished Make data base on Mon Aug 22 19:38:37 2022
+# Load=27/8192=0%, Rehash=0, Collisions=0/33=0%
+# Finished Make data base on Wed Aug 24 19:20:07 2022
 
  
